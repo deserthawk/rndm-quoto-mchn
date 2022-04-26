@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rndm-quoto-mchn/static/css/main.65feef4d.css",
+    "main.js": "/rndm-quoto-mchn/static/js/main.978ce647.js",
+    "static/js/787.527019b1.chunk.js": "/rndm-quoto-mchn/static/js/787.527019b1.chunk.js",
+    "index.html": "/rndm-quoto-mchn/index.html",
+    "main.65feef4d.css.map": "/rndm-quoto-mchn/static/css/main.65feef4d.css.map",
+    "main.978ce647.js.map": "/rndm-quoto-mchn/static/js/main.978ce647.js.map",
+    "787.527019b1.chunk.js.map": "/rndm-quoto-mchn/static/js/787.527019b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65feef4d.css",
+    "static/js/main.978ce647.js"
+  ]
+}
