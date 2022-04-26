@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background-color: #2e998e;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+#quote-box {
+  width: 400px;
+  height: 170px;
+  text-align: center;
+  margin: auto;
+  background-color: #2a3634;
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+#quote-box button {
+  padding: 7px;
+  margin-top: 10px;
+  background-color: #e0c984;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+#quote-box button:hover {
+  background-color: #fcd04c;
+}
+
+#author {
+  margin-top: 10px;
+}
+
+#author label {
+  font-style: italic;
+}
+
+.tweet-quote {
+  margin-top: 10px;
+}
+
+.tweet-quote a {
+  text-decoration: none;
+  color: #fcd04c;
+}
+/*# sourceMappingURL=style.css.map */

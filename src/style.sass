@@ -1,0 +1,58 @@
+$periwinkleCrayola:  #2e998e
+$cerise: #2a3634
+$white: hsl(0, 0%, 100%)
+$buff: #e0c984
+$sunglow: #fcd04c
+
+@mixin generalWidthHeight
+    width: 100%
+    height: 100vh
+
+body
+    @include generalWidthHeight
+    font-family: 'Outfit', sans-serif
+    background-color: $periwinkleCrayola
+
+#root
+    @include generalWidthHeight
+
+.page
+    @include generalWidthHeight
+
+main
+    @include generalWidthHeight
+    display: flex
+    flex-direction: column
+    justify-content: center
+    margin: auto
+
+#quote-box
+    width: 400px
+    height: 170px
+    text-align: center
+    margin: auto
+    background-color: $cerise
+    padding: 20px
+    border-radius: 30px
+    color: $white
+    button
+        padding: 7px
+        margin-top: 10px
+        background-color: $buff
+        border-radius: 10px
+        border: 0
+        cursor: pointer
+        &:hover
+            background-color: $sunglow
+    
+
+#author
+        margin-top: 10px
+        label
+            font-style: italic
+
+.tweet-quote
+        margin-top: 10px
+        a
+            text-decoration: none
+            color: $sunglow
